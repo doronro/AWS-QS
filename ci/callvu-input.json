@@ -1,0 +1,33 @@
+[{
+		"ParameterKey": "PublicHttpsCertificate",
+		"ParameterValue": "$[taskcat_random-string]"
+	},
+	{
+		"ParameterKey": "CloudTrailLogsRetentionInDays",
+		"ParameterValue": "14"
+	},
+	{
+		"ParameterKey": "DBClass",
+		"ParameterValue": "db.r4.large"
+	},
+	{
+		"ParameterKey": "KeyName",
+		"ParameterValue": "formation"
+	},
+	{
+		"ParameterKey": "OperatorEMail",
+		"ParameterValue": "yourmail@check.com"
+	},
+	{
+		"ParameterKey": "CloudTrailOperatorEMail",
+		"ParameterValue": "yourmailtrail@check.com"
+	},
+	{
+		"ParameterKey": "PrivateInstanceType",
+		"ParameterValue": "t2.nano"
+	},
+	{
+		"ParameterKey": "PublicInstanceType",
+		"ParameterValue": "t2.nano"
+	}
+]
